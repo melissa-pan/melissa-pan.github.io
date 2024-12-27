@@ -21,7 +21,7 @@ repository               : "melissa-pan/melissa-pan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_pic.jpg"
   name             : "Melissa Pan"
   pronouns         : # example: "she/her"  
   bio              : "PhD student @ UC Berkeley EECS"
