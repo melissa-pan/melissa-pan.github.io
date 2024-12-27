@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello there! Nice to e-meet you and welcome to my page.
-
-I'm a first-year Ph.D. student at UC Berkeley, advised by [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/), affliated with [Sky Computing Lab](https://sky.cs.berkeley.edu/). My research focuses on **introducing sustainability as a first-order optimization objective** along with **effiency** in large-scale machine learning and data center systems. Broadly, I'm interested in:
+Hello! I'm a first-year Ph.D. student at UC Berkeley, advised by [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/), affliated with [Sky Computing Lab](https://sky.cs.berkeley.edu/). My research focuses on **introducing sustainability as a first-order optimization objective** along with **effiency** in large-scale machine learning and data center systems. Broadly, I'm interested in:
 1. machine learning systems
 2. data center computing
 3. distribted systems
@@ -21,6 +19,8 @@ I graduated from the University of Toronto with a Bachelor’s degree in Compute
 The best way to contact me is through email: 
 **[melissapan]@berkeley.edu**
 
+
+**CV**: [PDF here](../files/cv_2024.pdf), up to Dec 2024.
 
 ---
 
