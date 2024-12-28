@@ -16,7 +16,7 @@ Before coming to Berkeley, I completed my Master’s degree at Carnegie Mellon U
 
 I graduated from the University of Toronto with a Bachelor’s degree in Computer Engineering. While there, I was advised by [Steve Mann](https://www.ece.utoronto.ca/people/mann-s/) on wearables for prosopagnosia. In between my academic pursuits, I spent ~3 years as a software engineer at IBM working on Db2 database core engine development, specifically on availability features such as backup, restore, and recovery.
 
-The best way to contact me is through email: 
+Please feel free reach out for research, collaborations, or a casual chat, especially if you are a junior, disadvantaged, or underrepresented student. The best way to reach me is via email:
 **[melissapan]@berkeley.edu**
 
 
