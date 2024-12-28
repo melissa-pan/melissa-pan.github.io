@@ -43,11 +43,5 @@ Hobbies/interests
 * 🐶 I love my dog, her name is Paofu. She holds all six level of certifications on behavours and tricks 🎓
 * I use emoji exccessively.
 
----
-
-Blog Posts
-======
-
-
 
 Last Update: Dec 2024
