@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a first-year Ph.D. student at UC Berkeley, advised by [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/), affliated with [Sky Computing Lab](https://sky.cs.berkeley.edu/). My research focuses on **introducing sustainability as a first-order optimization objective** along with **effiency** in large-scale machine learning and data center systems. Broadly, I'm interested in:
-1. machine learning systems
-2. data center computing
-3. distribted systems
+Hello! I'm a first-year Ph.D. student at UC Berkeley, advised by Prof. [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) and affiliated with the [Sky Computing Lab](https://sky.cs.berkeley.edu/). My research focuses on **sustainability as a first-order optimization objective** alongside **efficiency** in large-scale machine learning and data center systems. Broadly, I'm interested in:
+1. Machine learning systems  
+2. Data center computing  
+3. Distributed systems  
 
-Before coming to Berkeley, I completed my Master’s degree at Carnegie Mellon University (CMU), where I was fortunate to work with [Akshitha Sriraman](https://users.ece.cmu.edu/~asrirama/). My Master’s research centered on developing sustainable resource management techniques for microservices in hyperscale data centers. 
+Before coming to Berkeley, I completed my Master’s degree at Carnegie Mellon University (CMU), where I was very fortunate to work with Prof. [Akshitha Sriraman](https://users.ece.cmu.edu/~asrirama/). My Master’s research centered on developing sustainable resource management techniques for microservices in hyperscale data centers. 
 
-I graduated from the University of Toronto with a Bachelor’s degree in Computer Engineering. While there, I was advised by [Steve Mann](https://www.ece.utoronto.ca/people/mann-s/) on wearables for prosopagnosia. In between my academic pursuits, I spent ~3 years as a software engineer at IBM working on Db2 database core engine development, specifically on availability features such as backup, restore, and recovery.
+I graduated from the University of Toronto with a Bachelor’s degree in Computer Engineering. While there, I was advised by Prof. [Steve Mann](https://www.ece.utoronto.ca/people/mann-s/) on wearables for prosopagnosia. In between my academic pursuits, I spent ~3 years as a software engineer at IBM working on Db2 database core engine development, specifically on availability features such as backup, restore, and recovery.
 
 Please feel free reach out for research, collaborations, or a casual chat, especially if you are a junior, disadvantaged, or underrepresented student. The best way to reach me is via email:
 **[melissapan]@berkeley.edu**
