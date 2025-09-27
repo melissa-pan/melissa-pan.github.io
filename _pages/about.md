@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a first-year Ph.D. student at UC Berkeley, advised by Prof. [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) and affiliated with the [Sky Computing Lab](https://sky.cs.berkeley.edu/). My research focuses on **sustainability as a first-order optimization objective** alongside **efficiency** in large-scale machine learning and data center systems. Broadly, I'm interested in:
+Hello! I'm a second-year Ph.D. student at UC Berkeley, advised by Prof. [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) and affiliated with the [Sky Computing Lab](https://sky.cs.berkeley.edu/). My research focuses on **sustainability as a first-order optimization objective** alongside **efficiency** in large-scale machine learning and data center systems. Broadly, I'm interested in:
 1. Machine learning systems  
 2. Data center computing  
 3. Distributed systems  
@@ -24,15 +24,50 @@ Please feel free reach out for research, collaborations, or a casual chat, espec
 
 ---
 
-News
-======
-- **<span style="display:inline-block;width:100px;">Oct '24</span>** Presented at [SOSP24 poster session](https://sigops.org/s/conferences/sosp/2024/cfpo.html), and [SYSDW workshop](https://sysdw24.github.io/)!
-- **<span style="display:inline-block;width:100px;">Aug '24</span>** Joined UC Berkeley EECS!
-- **<span style="display:inline-block;width:100px;">May '24</span>** Worked on graph optimization in edge TPU at Google.
-- **<span style="display:inline-block;width:100px;">May '24</span>** Graduated from CMU MSECE!
-- **<span style="display:inline-block;width:100px;">May '23</span>** Worked on graph optimization in DTensor at Google.
-- **<span style="display:inline-block;width:100px;">Jan '23</span>** I started my graduate study at CMU!
+<div class="news-section">
+<h1>News</h1>
+<div class="news-container" id="newsContainer">
+{% for item in site.data.news limit:5 %}
+<div class="news-item">
+<span class="news-date">{{ item.date }}</span>
+<span class="news-content">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+</div>
+{% endfor %}
+{% if site.data.news.size > 5 %}
+<div class="news-hidden" style="display: none;">
+{% for item in site.data.news offset:5 %}
+<div class="news-item">
+<span class="news-date">{{ item.date }}</span>
+<span class="news-content">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+</div>
+{% endfor %}
+</div>
+{% endif %}
+</div>
+{% if site.data.news.size > 5 %}
+<button class="news-expand-btn" onclick="toggleNews()">Show More News ({{ site.data.news.size | minus: 5 }} more)</button>
+{% endif %}
+</div>
 
+<script>
+function toggleNews() {
+  const container = document.getElementById('newsContainer');
+  const hiddenNews = document.querySelector('.news-hidden');
+  const button = document.querySelector('.news-expand-btn');
+  
+  if (hiddenNews.style.display === 'none') {
+    hiddenNews.style.display = 'block';
+    container.classList.remove('collapsed');
+    button.textContent = 'Show Less News';
+    button.style.background = 'linear-gradient(135deg, #e53e3e 0%, #c53030 100%)';
+  } else {
+    hiddenNews.style.display = 'none';
+    container.classList.add('collapsed');
+    button.textContent = 'Show More News ({{ site.data.news.size | minus: 5 }} more)';
+    button.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+  }
+}
+</script>
 
 ---
 

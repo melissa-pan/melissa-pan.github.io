@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can **[download the PDF here](../files/cv_2024.pdf)**.
+You can **[download the PDF here](../files/cv_2024.pdf)**. Last updated: Dec 2024.
 
 <object data="{{ '/files/cv_2024.pdf' | relative_url }}" 
         type="application/pdf" 

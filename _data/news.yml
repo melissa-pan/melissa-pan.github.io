@@ -1,0 +1,29 @@
+# News Updates
+# Add new items at the top of the list for reverse chronological order
+# Format: date, content (can include markdown links)
+
+- date: "Oct '24"
+  content: "Presented at [SOSP24 poster session](https://sigops.org/s/conferences/sosp/2024/cfpo.html), and [SYSDW workshop](https://sysdw24.github.io/)!"
+
+- date: "Aug '24"
+  content: "Joined UC Berkeley EECS!"
+
+- date: "May '24"
+  content: "Worked on graph optimization in edge TPU at Google."
+
+- date: "May '24"
+  content: "Graduated from CMU MSECE!"
+
+- date: "May '23"
+  content: "Worked on graph optimization in DTensor at Google."
+
+- date: "Jan '23"
+  content: "I started my graduate study at CMU!"
+
+# Add more news items here - they will automatically appear in the scrollable news section
+# Example of additional items:
+# - date: "Dec '24"
+#   content: "New research paper accepted at [Conference Name](link)!"
+# 
+# - date: "Nov '24"
+#   content: "Gave a talk at [Event Name](link) about sustainable ML systems."
