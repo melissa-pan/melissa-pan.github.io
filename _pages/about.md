@@ -71,6 +71,64 @@ function toggleNews() {
 
 ---
 
+<div class="research-section">
+<h2>Selected Research Projects</h2>
+{% for paper in site.data.research %}
+<div class="research-item{% if paper.featured %} featured{% endif %}">
+  <div class="research-header">
+    {% if paper.image %}
+    <img src="{{ '/images/' | append: paper.image | relative_url }}" alt="{{ paper.title }}" class="research-image">
+    {% endif %}
+    <div class="research-content">
+      <div class="research-title">
+        {% if paper.links.pdf %}
+          <a href="{{ paper.links.pdf }}">{{ paper.title }}</a>
+        {% else %}
+          {{ paper.title }}
+        {% endif %}
+      </div>
+      <div class="research-authors">{{ paper.authors | replace: 'Melissa Pan', '<span class="highlight-name">Melissa Pan</span>' }}</div>
+      <div class="research-venue">{{ paper.venue }} {{ paper.year }}</div>
+      {% if paper.status %}
+        <span class="research-status {{ paper.status | downcase | replace: ' ', '-' }}">{{ paper.status }}</span>
+      {% endif %}
+      {% if paper.award %}
+        <span class="research-award {{ paper.award | downcase | replace: ' ', '-' }}">{{ paper.award }}</span>
+      {% endif %}
+      {% if paper.description %}
+        <div class="research-description">{{ paper.description }}</div>
+      {% endif %}
+      <div class="research-links">
+        {% if paper.links.pdf %}
+          <a href="{{ paper.links.pdf }}" class="research-link">PDF</a>
+        {% endif %}
+        {% if paper.links.arxiv %}
+          <a href="{{ paper.links.arxiv }}" class="research-link">arXiv</a>
+        {% endif %}
+        {% if paper.links.code %}
+          <a href="{{ paper.links.code }}" class="research-link">Code</a>
+        {% endif %}
+        {% if paper.links.website %}
+          <a href="{{ paper.links.website }}" class="research-link">Website</a>
+        {% endif %}
+        {% if paper.links.slides %}
+          <a href="{{ paper.links.slides }}" class="research-link">Slides</a>
+        {% endif %}
+        {% if paper.links.poster %}
+          <a href="{{ paper.links.poster }}" class="research-link">Poster</a>
+        {% endif %}
+        {% if paper.links.video %}
+          <a href="{{ paper.links.video }}" class="research-link">Video</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
+
+---
+
 Hobbies/interests
 ======
 * 🧗‍♀️ I love bouldering: I am a solid V2 climber, my current goal is to climb a V4 route!
@@ -79,4 +137,11 @@ Hobbies/interests
 * I use emoji exccessively.
 
 
-Last Update: Dec 2024
+This website is last updated: Sep 2025
+
+---
+
+<div style="text-align: center; margin-top: 2rem; padding: 1rem; color: #666; font-size: 0.9rem;">
+<p>Visits since my PhD:</p>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=melissa-pan.github.io" alt="visitor count" style="display: inline-block;">
+</div>

@@ -1,0 +1,60 @@
+# Research Publications
+# Add new items at the top of the list for reverse chronological order
+# Format: title, authors, venue, year, links, image (optional), description (optional)
+
+- title: "Why Do Multi-Agent LLM Systems Fail?"
+  authors: "Mert Cemri*, Melissa Pan*, Shuyi Yang*, Lakshya A. Agrawal, Bhavya Chopra, Rishabh Tiwari, Kurt Keutzer, Aditya Parameswaran, Dan Klein, Kannan Ramchandran, Matei Zaharia, Joseph E. Gonzalez, Ion Stoica"
+  venue: "NeurIPS"
+  year: 2025
+  status: "Published" # Published, Under Review, Preprint, etc.
+  award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/abs/2503.13657"
+    code: "https://github.com/multi-agent-systems-failure-taxonomy/MAST"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "mast.jpg" # Optional: place in /images/ folder
+  description: "The first empirical, principled study of multi-agent LLM failures. We introduce MAD (1,242 annotated traces across 7 frameworks) and MAST, a taxonomy for common failure patterns that currently exist in multi-agent LLM systems." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Semantic Operators and Their Optimization: Enabling LLM-Based Data Processing with Accuracy Guarantees in LOTUS"
+  authors: "Liana Patel, Siddharth Jha, Melissa Pan, Harshit Gupta, Parth Asawa, Carlos Guestrin, Matei Zaharia"
+  venue: "VLDB"
+  year: 2025
+  status: "Published"
+  links:
+    pdf: "https://www.vldb.org/pvldb/vol18/p4171-patel.pdf"
+    code: "https://github.com/lotus-lab/lotus"
+  image: "lotus.png" # Optional: place in /images/ folder
+  featured: false
+
+# - title: "Paper Title Number 2"
+#   authors: "Your Name, Co-Author Name"
+#   venue: "Journal Name"
+#   year: 2022
+#   status: "Published"
+#   links:
+#     pdf: "http://academicpages.github.io/files/paper1.pdf"
+#   featured: false
+
+# Add more papers here - they will automatically appear in the research section
+# Example of a paper under review:
+# - title: "New Research Paper"
+#   authors: "Melissa Pan, Collaborator Name"
+#   venue: "Target Conference"
+#   year: 2025
+#   status: "Under Review"
+#   award: "Best Paper" # Options: Spotlight, Best Paper, Outstanding Paper, Oral
+#   links:
+#     arxiv: "https://arxiv.org/abs/xxxx.xxxxx"
+#   description: "Description of ongoing work."
+#   featured: true
+
+# Award options and their styling:
+# - "Spotlight" -> Gold gradient badge
+# - "Best Paper" -> Red gradient badge  
+# - "Outstanding Paper" -> Purple gradient badge
+# - "Oral" -> Green gradient badge
