@@ -129,6 +129,36 @@ function toggleNews() {
 
 ---
 
+## Teaching & Mentorship & Services
+
+I'm passionate about education and supporting the next generation of (computer) scientists, especially students from underrepresented backgrounds.
+
+**Teaching:**
+* **EY: Introduction to Programing Workshop** (Spring 2025) - Designed and lead a 1-day workshop for girls in the area from grade 5 - 9.
+* Invited by Dr. [Brad Bass](https://www.environment.utoronto.ca/people/directories/all-faculty/brad-bass) as Guest lectures on sustainable computing and ML systems for University of Toronto's course [ENV360](https://artsci.calendar.utoronto.ca/course/env360h1).
+* **18-847: Data Center Computing** (Spring 2024) - Graduate Teaching Assistant at Carnegie Mellon University
+* **18-847: Data Center Computing** (Fall 2023) - Graduate Teaching Assistant at Carnegie Mellon University  
+* **STEM4Girls Program** - Volunteer mentor for middle school girls interested in STEM
+
+**Mentorship:**
+* Berkeley EAAA (2025): PhD application mentoring for underrepresented students
+* Berkeley EAAA (2024): PhD application mentoring for underrepresented students
+* Regular undergraduate research coffee chats (2024)
+* CMU ECE Graduate Mentorship Committee Chair (2024)
+
+**Academic Services:**
+* OSDI and ATC 2025 Artifact Evaluation Committee
+
+**Other Services:**
+* Berkeley Faculty Hiring Student Committee Chair, EECS Graduate Student Assembly, EECS Grads Matter Committee Member (2025)
+* Berkeley Programing System Seminar (PS2) Organizer, Summer Edition on Research Agents (2025)
+* Berkeley Graduate Woman of Engineering, Career and Professional Develoment Committee (2024, 2025)
+* Berkeley [CSGE](https://csge.berkeley.edu/) Seminar Chair (2024, 2025)
+* Berkeley Faculty Hiring Student Committee Member (2024)
+
+
+---
+
 Hobbies/interests
 ======
 * 🧗‍♀️ I love bouldering: I am a solid V2 climber, my current goal is to climb a V4 route!
