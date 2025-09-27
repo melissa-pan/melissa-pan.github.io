@@ -3,7 +3,7 @@
 # Format: date, content (can include markdown links)
 
 - date: "Sept '25"
-  content: "MAST is accepted to NeurIPS 2025 as a Spotlight paper in the Dataset and Benchmark Track! Top 2.8% of all submissions and top 11.26% of all accepted papers!"
+  content: "[MAST](https://arxiv.org/abs/2503.13657) is accepted to NeurIPS 2025 as a Spotlight paper in the Dataset and Benchmark Track! Top 2.8% of all submissions and top 11.26% of all accepted papers!"
 
 - date: "Aug '25"
   content: "I am honoured to recieve the Amazon AI Fellowship."
@@ -12,7 +12,7 @@
   content: "Presented Electro at OSDI Poster Session. [Link](https://www.usenix.org/conference/osdi25/poster-session)"
 
 - date: "Summer '25"
-  content: "Invited talks for MAST at MIT DSG, IBM Watson Lab, Berkeley Agentic AI Summit, Microsoft Asia Research, Accenture, Berkeley SkyDeck Demo Day, BAIR-RDI Agent Workshop, and 7 other organizations."
+  content: "Invited talks for [MAST](https://arxiv.org/abs/2503.13657) at MIT DSG, IBM Watson Lab, Berkeley Agentic AI Summit, Microsoft Asia Research, Accenture, Berkeley SkyDeck Demo Day, BAIR-RDI Agent Workshop, and 7 other organizations."
 
 - date: "Oct '24"
   content: "Presented at [SOSP24 poster session](https://sigops.org/s/conferences/sosp/2024/cfpo.html), and [SYSDW workshop](https://sysdw24.github.io/)!"
