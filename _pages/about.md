@@ -26,48 +26,15 @@ Please feel free reach out for research, collaborations, or a casual chat, espec
 
 <div class="news-section">
 <h1>News</h1>
-<div class="news-container" id="newsContainer">
-{% for item in site.data.news limit:5 %}
-<div class="news-item">
-<span class="news-date">{{ item.date }}</span>
-<span class="news-content">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
-</div>
-{% endfor %}
-{% if site.data.news.size > 5 %}
-<div class="news-hidden" style="display: none;">
-{% for item in site.data.news offset:5 %}
+<div class="news-container">
+{% for item in site.data.news %}
 <div class="news-item">
 <span class="news-date">{{ item.date }}</span>
 <span class="news-content">{{ item.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
 </div>
 {% endfor %}
 </div>
-{% endif %}
 </div>
-{% if site.data.news.size > 5 %}
-<button class="news-expand-btn" onclick="toggleNews()">Show More News ({{ site.data.news.size | minus: 5 }} more)</button>
-{% endif %}
-</div>
-
-<script>
-function toggleNews() {
-  const container = document.getElementById('newsContainer');
-  const hiddenNews = document.querySelector('.news-hidden');
-  const button = document.querySelector('.news-expand-btn');
-  
-  if (hiddenNews.style.display === 'none') {
-    hiddenNews.style.display = 'block';
-    container.classList.remove('collapsed');
-    button.textContent = 'Show Less News';
-    button.style.background = 'linear-gradient(135deg, #e53e3e 0%, #c53030 100%)';
-  } else {
-    hiddenNews.style.display = 'none';
-    container.classList.add('collapsed');
-    button.textContent = 'Show More News ({{ site.data.news.size | minus: 5 }} more)';
-    button.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-  }
-}
-</script>
 
 ---
 
