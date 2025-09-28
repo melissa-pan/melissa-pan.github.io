@@ -128,7 +128,7 @@ I'm passionate about education and supporting the next generation of (computer) 
 
 Hobbies/interests
 ======
-* 🧗‍♀️ I love bouldering: I am a solid V2 climber, my current goal is to climb a V4 route!
+* 🧗‍♀️ I love bouldering: I am a solid V2 climber, my current goal is to climb a V5 route!
 * ☕️ My favourite drinks are Iced Americano and Iced Matcha 🍵. I also like making latte art, pattern progress: blob (100%), solid heart (85%), rosetta (20%), ??? (100%).
 * 🐶 I love my dog, her name is Paofu. She holds all six level of certifications on behavours and tricks 🎓
 * I use emoji exccessively.
