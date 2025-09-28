@@ -135,10 +135,3 @@ Hobbies/interests
 
 
 This website is last updated: Sep 2025
-
----
-
-<div style="text-align: center; margin-top: 2rem; padding: 1rem; color: #666; font-size: 0.9rem;">
-<p>Visits since my PhD:</p>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=melissa-pan.github.io" alt="visitor count" style="display: inline-block;">
-</div>
