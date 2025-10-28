@@ -13,7 +13,7 @@
     pdf: "https://arxiv.org/abs/2503.13657"
     code: "https://github.com/multi-agent-systems-failure-taxonomy/MAST"
     # website: "https://project-website.com"
-    # slides: "../files/slides.pdf"
+    slides: "https://drive.google.com/file/d/12_5h_47klBEVC4l2eNd0O-uxXl8SZUCq/view?usp=sharing"
     # poster: "../files/poster.pdf"
     # video: "https://youtube.com/watch?v=xxxxx"
   image: "mast.jpg" # Optional: place in /images/ folder
