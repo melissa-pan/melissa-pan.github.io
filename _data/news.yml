@@ -2,11 +2,47 @@
 # Add new items at the top of the list for reverse chronological order
 # Format: date, content (can include markdown links)
 
+- date: "2026"
+  content: "Gave 15 invited talks so far this year: [Measuring Agents in Production](https://arxiv.org/abs/2512.04123) at Microsoft Azure Research, NVIDIA, Amazon, UW SyFI Lab, AGI House, [NICE](https://www.youtube.com/live/hcQmCWzwXyQ), and more; [MAST](https://arxiv.org/abs/2503.13657) at LangChain (hosted by Harrison Chase), the University of Oxford & the Alan Turing Institute, and Edge Delta; [BRANE](https://arxiv.org/abs/2605.27361) at Stanford and [Arena Intelligence](https://www.youtube.com/watch?v=PlGC7sA8KEs); and [Barbarians at the Gate](https://arxiv.org/abs/2510.06189) at Meta."
+
+- date: "Jul '26"
+  content: "Presented [Measuring Agents in Production](https://arxiv.org/abs/2512.04123) as an **Oral & Spotlight** paper at ICML 2026 in Seoul! Also featured in Nebius Science's [ICML 2026: Papers That Matter](https://nebius.science/stories/icml-papers-that-matter)."
+
+- date: "Jul '26"
+  content: "[Fantastic Adaptive Taxonomies and How to Use Them](https://arxiv.org/abs/2607.16387) won the **Best Paper Award** at the ICML 2026 Workshop on Failure Modes of Agentic AI!"
+
+- date: "Jul '26"
+  content: "I am interning at Arena Intelligence this summer as a machine learning research intern, working with Prof. Ion Stoica on coding agent efficiency."
+
+- date: "May '26"
+  content: "New preprint: [Natural Language Query to Configuration for Retrieval Agents](https://arxiv.org/abs/2605.27361) (BRANE), a Laude Slingshots project, with our collaborators at Microsoft Azure Research."
+
+- date: "May '26"
+  content: "[SkyDiscover](https://dl.acm.org/doi/10.1145/3786335.3813221) is presented at ACM CAIS 2026 as a **Spotlight** in the Demo Track!"
+
+- date: "Mar '26"
+  content: "My work on energy-efficient AI systems is featured in The Daily Californian: [UC Berkeley researchers use AI to tackle climate problems](https://www.dailycal.org/uc-berkeley-researchers-use-ai-to-tackle-climate-problems/article_ae11ff72-0514-458b-81c1-46535d982f30.html)."
+
+- date: "Feb '26"
+  content: "MAP: Measuring Agents in Production is selected for the Laude Institute's [Slingshots // TWO](https://www.laude.org/updates/slingshots-two) batch!"
+
+- date: "Dec '25"
+  content: "I am selected as a [Laude Institute](https://www.laude.org/) AI Resident!"
+
+- date: "Dec '25"
+  content: "Presented [MAST](https://arxiv.org/abs/2503.13657) (Spotlight) at NeurIPS 2025 in San Diego, and [Towards Automatically Optimizing Retrieval Augmented AI Systems](https://openreview.net/forum?id=an17DUVvuS) at the ML for Systems workshop!"
+
+- date: "Dec '25"
+  content: "New preprint: [Measuring Agents in Production](https://arxiv.org/abs/2512.04123) — a study of how LLM agents are deployed and measured in production across industry."
+
+- date: "Oct '25"
+  content: "New preprint: [Barbarians at the Gate: How AI is Upending Systems Research](https://arxiv.org/abs/2510.06189)!"
+
 - date: "Sept '25"
   content: "[MAST](https://arxiv.org/abs/2503.13657) is accepted to NeurIPS 2025 as a Spotlight paper in the Dataset and Benchmark Track! Top 2.8% of all submissions and top 11.26% of all accepted papers!"
 
 - date: "Aug '25"
-  content: "I am honoured to recieve the Amazon AI Fellowship."
+  content: "I am honoured to receive the [Amazon AI Fellowship](https://eecs.berkeley.edu/news/eecs-students-drive-ai-innovation-as-amazon-phd-fellows/)."
 
 - date: "July '25"
   content: "Presented Electro at OSDI Poster Session. [Link](https://www.usenix.org/conference/osdi25/poster-session)"
@@ -18,7 +54,7 @@
   content: "Presented at [SOSP24 poster session](https://sigops.org/s/conferences/sosp/2024/cfpo.html), and [SYSDW workshop](https://sysdw24.github.io/)!"
 
 - date: "Aug '24"
-  content: "Joined UC Berkeley EECS!"
+  content: "Joined UC Berkeley EECS! Honoured to receive the Katherine & James Lau EECS Fellowship."
 
 - date: "May '24"
   content: "Worked on graph optimization in edge TPU at Google."

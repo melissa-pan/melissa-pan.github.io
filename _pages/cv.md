@@ -7,14 +7,14 @@ redirect_from:
   - /resume
 ---
 
-You can **[download the PDF here](../files/cv_2024.pdf)**. Last updated: Dec 2024.
+You can **[download the PDF here](../files/cv_2026.pdf)**. Last updated: Aug 2026.
 
-<object data="{{ '/files/cv_2024.pdf' | relative_url }}" 
+<object data="{{ '/files/cv_2026.pdf' | relative_url }}" 
         type="application/pdf" 
         width="100%" 
         height="800px">
   <p>
     It appears your browser doesn't support inline PDF viewing. 
-    You can <a href="{{ '/files/cv_2024.pdf' | relative_url }}">click here to download the PDF file</a>.
+    You can <a href="{{ '/files/cv_2026.pdf' | relative_url }}">click here to download the PDF file</a>.
   </p>
 </object>

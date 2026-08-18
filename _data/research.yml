@@ -1,60 +1,83 @@
-# Research Publications
+# Selected Research Publications
 # Add new items at the top of the list for reverse chronological order
+# Selection criteria: papers with awards (Spotlight / Oral / Best Paper) or first / co-first author
 # Format: title, authors, venue, year, links, image (optional), description (optional)
 
-- title: "Why Do Multi-Agent LLM Systems Fail?"
-  authors: "Mert Cemri*, Melissa Pan*, Shuyi Yang*, Lakshya A. Agrawal, Bhavya Chopra, Rishabh Tiwari, Kurt Keutzer, Aditya Parameswaran, Dan Klein, Kannan Ramchandran, Matei Zaharia, Joseph E. Gonzalez, Ion Stoica"
-  venue: "NeurIPS"
-  year: 2025
-  status: "Published" # Published, Under Review, Preprint, etc.
-  award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+- title: "Measuring Agents in Production"
+  authors: "Melissa Z. Pan*, Negar Arabzadeh*, Riccardo Cogo, Yuxuan Zhu, Alexander Xiong, Lakshya A. Agrawal, Huanzhi Mao, Emma Shen, Sid Pallerla, Liana Patel, Shu Liu, Tianneng Shi, Xiaoyuan Liu, Jared Quincy Davis, Emmanuele Lacavalla, Alessandro Basile, Shuyi Yang, Paul Castro, Daniel Kang, Koushik Sen, Dawn Song, Joseph E. Gonzalez, Ion Stoica, Matei Zaharia, Marquita Ellis (* equal contribution)"
+  venue: "ICML"
+  year: 2026
+  status: "Published"
+  award: "Oral"
+  award2: "Spotlight"
   links:
-    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/abs/2512.04123"
+  featured: false
+
+- title: "Fantastic Adaptive Taxonomies and How to Use Them"
+  authors: "Mert Cemri*, Andrei Cojocaru*, Melissa Z. Pan, Shu Liu, Shubham Agarwal, Alexander Krentsel, Jay Tang, Kannan Ramchandran, Joseph E. Gonzalez, Matei Zaharia, Alex Dimakis, Ion Stoica (* equal contribution)"
+  venue: "ICML Workshop on Failure Modes of Agentic AI"
+  year: 2026
+  status: "Published"
+  award: "Best Paper"
+  links:
+    pdf: "https://arxiv.org/abs/2607.16387"
+  featured: false
+
+- title: "SkyDiscover: A Flexible, Adaptive Framework for AI-Driven Scientific and Algorithmic Discovery"
+  authors: "Shu Liu, Mert Cemri, Shubham Agarwal, Alexander Krentsel, Ashwin Naren, Qiuyang Mang, Zhifei Li, Akshat Gupta, Monishwaran Maheswaran, Audrey Cheng, Melissa Z. Pan, Ethan Boneh, Kannan Ramchandran, Koushik Sen, Matei Zaharia, Alexandros G. Dimakis, Ion Stoica"
+  venue: "ACM CAIS, Demo Track"
+  year: 2026
+  status: "Published"
+  award: "Spotlight"
+  links:
+    pdf: "https://dl.acm.org/doi/10.1145/3786335.3813221"
+  featured: false
+
+- title: "Natural Language Query to Configuration for Retrieval Agents"
+  authors: "Melissa Z. Pan, Negar Arabzadeh, Mathew Jacob, Fiodar Kazhamiaka, Esha Choukse, Matei Zaharia"
+  venue: "arXiv preprint"
+  year: 2026
+  status: "Preprint"
+  links:
+    pdf: "https://arxiv.org/abs/2605.27361"
+  featured: false
+
+- title: "Why Do Multi-Agent LLM Systems Fail?"
+  authors: "Melissa Pan*, Mert Cemri*, Shuyi Yang*, Lakshya A. Agrawal, Bhavya Chopra, Rishabh Tiwari, Kurt Keutzer, Aditya Parameswaran, Dan Klein, Kannan Ramchandran, Matei Zaharia, Joseph E. Gonzalez, Ion Stoica (* equal contribution)"
+  venue: "NeurIPS Datasets and Benchmarks Track"
+  year: 2025
+  status: "Published"
+  award: "Spotlight"
+  links:
     pdf: "https://arxiv.org/abs/2503.13657"
     code: "https://github.com/multi-agent-systems-failure-taxonomy/MAST"
-    # website: "https://project-website.com"
     slides: "https://drive.google.com/file/d/12_5h_47klBEVC4l2eNd0O-uxXl8SZUCq/view?usp=sharing"
-    # poster: "../files/poster.pdf"
-    # video: "https://youtube.com/watch?v=xxxxx"
-  image: "mast.jpg" # Optional: place in /images/ folder
-  description: "The first empirical, principled study of multi-agent LLM failures. We introduce MAD (1,242 annotated traces across 7 frameworks) and MAST, a taxonomy for common failure patterns that currently exist in multi-agent LLM systems." # Optional
-  featured: false # Set to true for featured/highlighted papers
+  image: "mast.jpg"
+  description: "The first empirical, principled study of multi-agent LLM failures. We introduce MAD (1,242 annotated traces across 7 frameworks) and MAST, a taxonomy for common failure patterns that currently exist in multi-agent LLM systems."
+  featured: false
 
-- title: "Semantic Operators and Their Optimization: Enabling LLM-Based Data Processing with Accuracy Guarantees in LOTUS"
-  authors: "Liana Patel, Siddharth Jha, Melissa Pan, Harshit Gupta, Parth Asawa, Carlos Guestrin, Matei Zaharia"
-  venue: "VLDB"
+- title: "Towards Automatically Optimizing Retrieval Augmented AI Systems"
+  authors: "Melissa Z. Pan, Negar Arabzadeh, Mathew Jacob, Fiodar Kazhamiaka, Esha Choukse, Matei Zaharia"
+  venue: "Machine Learning for Systems Workshop @ NeurIPS; also presented at the OSDI 2025 Poster Session"
   year: 2025
   status: "Published"
   links:
-    pdf: "https://www.vldb.org/pvldb/vol18/p4171-patel.pdf"
-    code: "https://github.com/lotus-lab/lotus"
-  image: "lotus.png" # Optional: place in /images/ folder
+    pdf: "https://openreview.net/forum?id=an17DUVvuS"
   featured: false
 
-# - title: "Paper Title Number 2"
-#   authors: "Your Name, Co-Author Name"
-#   venue: "Journal Name"
-#   year: 2022
-#   status: "Published"
-#   links:
-#     pdf: "http://academicpages.github.io/files/paper1.pdf"
-#   featured: false
+- title: "Barbarians at the Gate: How AI is Upending Systems Research"
+  authors: "Melissa Pan*, Audrey Cheng*, Shu Liu*, Zhifei Li, Bowen Wang, Alex Krentsel, Tian Xia, Mert Cemri, Jongseok Park, Shuo Yang, Jeff Chen, Lakshya Agrawal, Aditya Desai, Jiarong Xing, Koushik Sen, Matei Zaharia, Ion Stoica (* equal contribution)"
+  venue: "arXiv preprint"
+  year: 2025
+  status: "Preprint"
+  links:
+    pdf: "https://arxiv.org/abs/2510.06189"
+  featured: false
 
-# Add more papers here - they will automatically appear in the research section
-# Example of a paper under review:
-# - title: "New Research Paper"
-#   authors: "Melissa Pan, Collaborator Name"
-#   venue: "Target Conference"
-#   year: 2025
-#   status: "Under Review"
-#   award: "Best Paper" # Options: Spotlight, Best Paper, Outstanding Paper, Oral
-#   links:
-#     arxiv: "https://arxiv.org/abs/xxxx.xxxxx"
-#   description: "Description of ongoing work."
-#   featured: true
-
-# Award options and their styling:
+# Award options and their styling (see _includes/head/custom.html):
 # - "Spotlight" -> Gold gradient badge
-# - "Best Paper" -> Red gradient badge  
+# - "Best Paper" -> Red gradient badge
 # - "Outstanding Paper" -> Purple gradient badge
 # - "Oral" -> Green gradient badge
+# A paper can carry two badges via `award` + `award2`.
