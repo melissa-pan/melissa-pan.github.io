@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm a second-year Ph.D. student at UC Berkeley, advised by Prof. [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) and affiliated with the [Sky Computing Lab](https://sky.cs.berkeley.edu/). My research focuses on **sustainability as a first-order optimization objective** alongside **efficiency** in large-scale machine learning and data center systems. Broadly, I'm interested in:
-1. Machine learning systems  
-2. Data center computing  
-3. Distributed systems  
+Hello! I'm a third-year Ph.D. student at UC Berkeley, advised by Prof. [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) and affiliated with the [Sky Computing Lab](https://sky.cs.berkeley.edu/). I also work closely with Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/) and Prof. [Joey Gonzalez](https://people.eecs.berkeley.edu/~jegonzal/). I design and build **efficient and reliable machine learning systems** through joint optimization across the systems stack. Broadly, I'm interested in:
+1. Responsible and efficient frameworks for emerging **agent systems**, with **sustainability** as a first-order objective  
+2. Reliably harnessing LLMs to **accelerate scientific discovery** in systems research and beyond  
+3. Machine learning systems and data center computing  
 
 Before coming to Berkeley, I completed my Master’s degree at Carnegie Mellon University (CMU), where I was very fortunate to work with Prof. [Akshitha Sriraman](https://users.ece.cmu.edu/~asrirama/). My Master’s research centered on developing sustainable resource management techniques for microservices in hyperscale data centers. 
 
@@ -20,7 +20,7 @@ Please feel free reach out for research, collaborations, or a casual chat, espec
 **[melissapan]@berkeley.edu**
 
 
-**CV**: [PDF here](../files/cv_2024.pdf), up to Dec 2024.
+**CV**: [PDF here](../files/cv_2026.pdf), up to Aug 2026.
 
 ---
 
@@ -54,13 +54,16 @@ Please feel free reach out for research, collaborations, or a casual chat, espec
           {{ paper.title }}
         {% endif %}
       </div>
-      <div class="research-authors">{{ paper.authors | replace: 'Melissa Pan', '<span class="highlight-name">Melissa Pan</span>' }}</div>
+      <div class="research-authors">{{ paper.authors | replace: 'Melissa Z. Pan', '<span class="highlight-name">Melissa Z. Pan</span>' | replace: 'Melissa Pan', '<span class="highlight-name">Melissa Pan</span>' }}</div>
       <div class="research-venue">{{ paper.venue }} {{ paper.year }}</div>
       {% if paper.status %}
         <span class="research-status {{ paper.status | downcase | replace: ' ', '-' }}">{{ paper.status }}</span>
       {% endif %}
       {% if paper.award %}
         <span class="research-award {{ paper.award | downcase | replace: ' ', '-' }}">{{ paper.award }}</span>
+      {% endif %}
+      {% if paper.award2 %}
+        <span class="research-award {{ paper.award2 | downcase | replace: ' ', '-' }}">{{ paper.award2 }}</span>
       {% endif %}
       {% if paper.description %}
         <div class="research-description">{{ paper.description }}</div>
@@ -101,10 +104,10 @@ Please feel free reach out for research, collaborations, or a casual chat, espec
 I'm passionate about education and supporting the next generation of (computer) scientists, especially students from underrepresented backgrounds.
 
 **Teaching:**
-* **EY: Introduction to Programing Workshop** (Spring 2025) - Designed and lead a 1-day workshop for girls in the area from grade 5 - 9.
+* **Expanding Your Horizons, Creative Coding Workshop** (Spring 2025, Spring 2026) - Designed and led a 1-day workshop for girls in the area from grade 5 - 9.
 * Invited by Dr. [Brad Bass](https://www.environment.utoronto.ca/people/directories/all-faculty/brad-bass) as Guest lectures on sustainable computing and ML systems for University of Toronto's course [ENV360](https://artsci.calendar.utoronto.ca/course/env360h1).
 * **18-847: Data Center Computing** (Spring 2024) - Graduate Teaching Assistant at Carnegie Mellon University
-* **18-847: Data Center Computing** (Fall 2023) - Graduate Teaching Assistant at Carnegie Mellon University  
+* **18-847: Modern Computer Systems** (Fall 2023) - Graduate Teaching Assistant at Carnegie Mellon University  
 * **STEM4Girls Program** - Volunteer mentor for middle school girls interested in STEM
 
 **Mentorship:**
@@ -114,13 +117,17 @@ I'm passionate about education and supporting the next generation of (computer) 
 * CMU ECE Graduate Mentorship Committee Chair (2024)
 
 **Academic Services:**
-* OSDI and ATC 2025 Artifact Evaluation Committee
+* NeurIPS Reviewer (2026)
+* ACM CAIS Reviewer (2026)
+* OSDI Artifact Evaluation Committee (OSDI '25, OSDI '26), ATC '25 Artifact Evaluation Committee
 
 **Other Services:**
+* Berkeley EECS Graduate Student Assembly, Co-President for CS (AY 2026 - 2027)
+* Berkeley NEXT Meetup Organizer (2026 - present)
 * Berkeley Faculty Hiring Student Committee Chair, EECS Graduate Student Assembly, EECS Grads Matter Committee Member (2025)
 * Berkeley Programing System Seminar (PS2) Organizer, Summer Edition on Research Agents (2025)
 * Berkeley Graduate Woman of Engineering, Career and Professional Develoment Committee (2024, 2025)
-* Berkeley [CSGE](https://csge.berkeley.edu/) Seminar Chair (2024, 2025)
+* Berkeley [CSGE](https://csge.berkeley.edu/) Seminar Chair (2024 - present)
 * Berkeley Faculty Hiring Student Committee Member (2024)
 
 
@@ -134,4 +141,4 @@ Hobbies/interests
 * I use emoji exccessively.
 
 
-This website is last updated: Sep 2025
+This website is last updated: Aug 2026
